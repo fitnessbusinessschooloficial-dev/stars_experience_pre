@@ -22,7 +22,7 @@ const Index = () => {
 
         {/* Secondary paragraph */}
         <p className="animate-fade-in-up-delay-3 mx-auto mt-6 max-w-lg text-sm leading-relaxed text-muted-foreground sm:text-base">
-          O <strong className="text-primary">STARS EXPERIENCE</strong> é a imersão presencial que vai te mostrar como aumentar faturamento, lotar agendas, vender com previsibilidade e transformar seu negócio em uma máquina lucrativa — com estratégias práticas de marketing, vendas e IA.
+          O <strong className="text-primary">STARS EXPERIENCE</strong> é a imersão presencial que vai te mostrar como aumentar faturamento, lotar agendas, vender com previsibilidade e transformar seu negócio em uma máquina lucrativa com estratégias práticas de marketing, vendas e IA.
         </p>
 
         {/* Final reinforcement paragraph */}
