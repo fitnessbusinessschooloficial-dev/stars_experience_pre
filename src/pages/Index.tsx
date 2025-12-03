@@ -2,15 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <main 
-      className="relative flex min-h-screen items-center justify-center bg-background px-6 py-12"
-      style={{
-        backgroundImage: 'url(/images/stars-experience-banner.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
-    >
+    <main className="hero-bg relative flex min-h-screen items-center justify-center bg-background px-6 py-12">
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/60" />
       <article className="relative z-10 max-w-2xl text-center">
