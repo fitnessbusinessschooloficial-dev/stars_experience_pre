@@ -74,6 +74,13 @@
   .neon-glow-intense {
     box-shadow: var(--neon-glow-intense);
   }
+
+  .hero-bg {
+    background-image: url('/images/stars-experience-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 /* Animations */
@@ -107,33 +114,40 @@
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out forwards;
+  animation: fade-in-up 0.6s ease-out forwards;
+  will-change: opacity, transform;
 }
 
 .animate-fade-in-up-delay-1 {
-  animation: fade-in-up 0.8s ease-out 0.1s forwards;
+  animation: fade-in-up 0.6s ease-out 0.1s forwards;
   opacity: 0;
+  will-change: opacity, transform;
 }
 
 .animate-fade-in-up-delay-2 {
-  animation: fade-in-up 0.8s ease-out 0.2s forwards;
+  animation: fade-in-up 0.6s ease-out 0.2s forwards;
   opacity: 0;
+  will-change: opacity, transform;
 }
 
 .animate-fade-in-up-delay-3 {
-  animation: fade-in-up 0.8s ease-out 0.3s forwards;
+  animation: fade-in-up 0.6s ease-out 0.3s forwards;
   opacity: 0;
+  will-change: opacity, transform;
 }
 
 .animate-fade-in-up-delay-4 {
-  animation: fade-in-up 0.8s ease-out 0.4s forwards;
+  animation: fade-in-up 0.6s ease-out 0.4s forwards;
   opacity: 0;
+  will-change: opacity, transform;
 }
 
 .animate-pulse-glow {
-  animation: pulse-glow 2s ease-in-out infinite;
+  animation: pulse-glow 2.5s ease-in-out infinite;
+  will-change: box-shadow;
 }
 
 .animate-subtle-float {
-  animation: subtle-float 3s ease-in-out infinite;
+  animation: subtle-float 4s ease-in-out infinite;
+  will-change: transform;
 }
