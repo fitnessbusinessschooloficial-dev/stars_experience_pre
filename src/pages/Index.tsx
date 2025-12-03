@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   return (
     <main 
-      className="flex min-h-screen items-center justify-center bg-background px-6 py-12"
+      className="relative flex min-h-screen items-center justify-center bg-background px-6 py-12"
       style={{
         backgroundImage: 'url(/images/stars-experience-banner.png)',
         backgroundSize: 'cover',
@@ -11,7 +11,9 @@ const Index = () => {
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <article className="max-w-2xl text-center">
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/60" />
+      <article className="relative z-10 max-w-2xl text-center">
         {/* Title */}
         <h1 className="animate-fade-in-up text-3xl font-extrabold uppercase tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl">
           PRÉ-VENDA LIBERADA —{" "}
