@@ -12,22 +12,22 @@ const Index = () => {
 
         {/* Subtitle */}
         <h2 className="animate-fade-in-up-delay-1 mt-6 text-lg font-semibold uppercase tracking-wide text-muted-foreground sm:text-xl md:text-2xl">
-          Condição Exclusiva Apenas Para o Grupo VIP
+          A Condição Especial Para Quem Quer Começar 2026 No Lucro
         </h2>
 
         {/* Main paragraph */}
         <p className="animate-fade-in-up-delay-2 mx-auto mt-8 max-w-xl text-base leading-relaxed text-foreground/90 sm:text-lg">
-          A imersão que vai tirar você do modo sobrevivência e colocar seu negócio no crescimento{" "}
-          <strong className="text-primary">previsível, lucrativo e dominante</strong> — para apenas{" "}
-          <strong className="text-primary">40 participantes</strong>.
+          Se você é personal trainer ou dono de academia, já sabe: quem continuar no modo "sobrevivência" vai ficar para trás em 2026.
         </p>
 
         {/* Secondary paragraph */}
         <p className="animate-fade-in-up-delay-3 mx-auto mt-6 max-w-lg text-sm leading-relaxed text-muted-foreground sm:text-base">
-          Entre no <strong className="text-foreground">Grupo VIP</strong> e receba{" "}
-          <strong className="text-foreground">acesso antecipado</strong>,{" "}
-          <strong className="text-foreground">benefícios especiais</strong> e a{" "}
-          <strong className="text-foreground">melhor condição da história</strong> do evento.
+          O <strong className="text-primary">STARS EXPERIENCE</strong> é a imersão presencial que vai te mostrar como aumentar faturamento, lotar agendas, vender com previsibilidade e transformar seu negócio em uma máquina lucrativa — com estratégias práticas de marketing, vendas e IA.
+        </p>
+
+        {/* Final reinforcement paragraph */}
+        <p className="animate-fade-in-up-delay-3 mx-auto mt-6 max-w-lg text-sm leading-relaxed text-foreground font-semibold sm:text-base">
+          Apenas <strong className="text-primary">40 participantes</strong> terão acesso à condição especial da pré-venda.
         </p>
 
         {/* CTA Button */}
